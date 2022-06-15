@@ -141,3 +141,90 @@ footer a:hover {
     color:rgb(177, 177, 177);
     box-shadow: 0 2px 0 0 rgb(177, 177, 177);
 }
+
+@media (max-width: 1300px) {
+    .offert p {
+        font-size: 20px;
+    }
+
+    .offert img {
+        width: 95%;
+    }
+
+    .headerOffert {
+        margin-left: 0.5%;
+    }
+}
+
+@media (max-width: 960px) {
+
+    nav {
+        font-size: 18px;
+    }
+
+    nav p{
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    nav .navbutton a{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    main .headerOffert {
+        font-size: 24px;
+    }
+
+    .offert p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 780px) {
+       
+    main .offert {
+        width: 70vw;
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    main .offert p {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    main .offert:hover p{
+        box-shadow: 0 2px 0 0 black;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    nav {
+        font-size: 14px;
+    }
+
+    main .offert p {
+        font-size: 18px;
+    }
+
+    footer .contact p {
+        font-size: 14px;
+    }
+
+    .contact p iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    nav {
+        font-size: 12px;
+    }
+}
